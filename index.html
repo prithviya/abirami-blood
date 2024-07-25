@@ -43,7 +43,11 @@
   <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
 </head>
-
+<script type="text/javascript">
+  (function() {
+    emailjs.init('RH7gd1wIDuNXetgxH'); // Replace 'your_actual_user_id' with your EmailJS user ID
+  })();
+</script>
 <script type="text/javascript">
   document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent the default form submission
