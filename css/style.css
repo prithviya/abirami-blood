@@ -1,26 +1,31 @@
 
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700|Source+Sans+Pro:400,600,700");
+
 body {
   line-height: 1.4;
-  font-family: "Source Sans Pro", sans-serif;
+  /* font-family: "Source Sans Pro", sans-serif; */
   -webkit-font-smoothing: antialiased;
 }
 
 p {
-  font-family: "Source Sans Pro", sans-serif;
+  /* font-family: "Source Sans Pro", sans-serif; */
   color: #848484;
   font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", sans-serif;
   font-weight: 600;
 }
 
+:root
+{
+  --secondary: #1e1b4b;
+  --primary: #8b0000;
+  --tritary: #3e3c3c;
+}
 /*=== MEDIA QUERY ===*/
 body {
   font-size: 15px;
-  color: #777777;
+  color: #222;
   line-height: 1.8em;
   font-weight: 400;
   background: #ffffff;
@@ -28,7 +33,6 @@ body {
   background-repeat: no-repeat;
   background-position: center top;
   -webkit-font-smoothing: antialiased;
-  font-family: "Roboto", sans-serif;
 }
 
 .page-wrapper {
@@ -49,7 +53,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 input, button, select, textarea {
-  font-family: "Roboto", sans-serif;
 }
 
 p {
@@ -60,7 +63,7 @@ p {
 .section-title h3 {
   font-size: 40px;
   line-height: 50px;
-  color: #222222;
+  color: var(--primary);
   font-weight: 700;
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -71,9 +74,7 @@ p {
 .section-title p {
   font-size: 15px;
   line-height: 25px;
-  font-weight: 400;
-  color: #777777;
-  font-family: "Roboto", sans-serif;
+  color: var(--tritary);
 }
 
 .strike-through {
@@ -135,8 +136,8 @@ li {
   color: #ffffff;
   line-height: 27px;
   padding: 8px 36px;
-  background: #da2100;
-  border: 1px solid #da2100;
+  background: var(--secondary);
+  border: 1px solid var(--secondary);
   display: inline-block;
   text-transform: uppercase;
   font-family: "Source Sans Pro", sans-serif;
@@ -148,8 +149,8 @@ li {
   border-radius: 25px;
 }
 .btn-style-one:hover {
-  color: #48bdc5;
-  border: 1px solid #48bdc5;
+  color: var(--primary);
+  border: 1px solid var(--primary);
   background: #ffffff;
   transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -238,7 +239,6 @@ li {
   color: #777777;
   font-weight: 400;
   padding: 14px 0px;
-  font-family: "Roboto", sans-serif;
 }
 .header-top .top-left .contact-links li {
   display: inline-block;
@@ -307,10 +307,10 @@ li {
   border-radius: 50%;
   text-align: center;
   line-height: 57px;
-  border: 3px solid #bb1f2d;
+  border: 3px solid var(--primary);
 }
 .header-uper .contact-info .item .icon-box i:before {
-  color: #bb1f2d;
+  color: var(--primary);
   font-size: 22px;
 }
 .header-uper .contact-info .item strong {
@@ -319,14 +319,12 @@ li {
   font-weight: 600;
   color: #222222;
   text-transform: capitalize;
-  font-family: "Roboto", sans-serif;
 }
 .header-uper .contact-info .item span {
   font-size: 15px;
   line-height: 26px;
   font-weight: 400;
   color: #777777;
-  font-family: "Roboto", sans-serif;
 }
 .header-uper .right-side .link-btn {
   margin-left: 20px;
@@ -556,7 +554,7 @@ button:focus {
 }
 .hero-slider .slider-item:before {
   position: absolute;
-  background: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(284deg, rgba(48,42,157,0.5) 0%, rgba(235,98,112,0.5) 63%, rgba(255,0,9,0.5) 100%);;
   content: "";
   top: 0;
   height: 100%;
@@ -580,7 +578,7 @@ button:focus {
   margin-bottom: 5px;
 }
 .hero-slider .content.style .tag-text {
-  font-size: 20px;
+  /* font-size: 20px; */
   font-weight: normal;
 }
 .hero-slider .content.style .btn-main {
@@ -592,11 +590,10 @@ button:focus {
   font-size: 35px;
   text-transform: capitalize;
   font-weight: 600;
-  font-family: "Roboto", sans-serif;
-  color: #fff;
+  color: var(--secondary) !important;
 }
 .hero-slider .content p {
-  font-size: 26px;
+  /* font-size: 26px; */
   color: #fff;
 }
 .hero-slider .content .btn-white {
@@ -604,7 +601,7 @@ button:focus {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #fff;
-  border: 1px solid #fff;
+  border: 1px solid var(--secondary);
   transition: all 0.3s ease;
 }
 .hero-slider .content .btn-white:hover {
@@ -654,7 +651,7 @@ button:focus {
   overflow: hidden;
 }
 .cta .cta-block .emmergency {
-  background: #48bdc5;
+  background: var(--secondary);
 }
 .cta .cta-block .emmergency a {
   color: #fff;
@@ -664,7 +661,7 @@ button:focus {
   padding-top: 20px;
 }
 .cta .cta-block .top-doctor {
-  background: #5bc4cb;
+  background: #312e81;
 }
 .cta .cta-block .top-doctor .btn-main {
   margin-top: 10px;
@@ -675,10 +672,10 @@ button:focus {
 }
 .cta .cta-block .top-doctor .btn-main:hover {
   background: #fff;
-  color: #48bdc5;
+  color: var(--secondary);
 }
 .cta .cta-block .working-time {
-  background: #6fcbd1;
+  background: var(--secondary);
 }
 .cta .cta-block .working-time ul {
   margin: 0;
@@ -811,14 +808,14 @@ button:focus {
 .feature-section .image-content .item h3 {
   font-size: 20px;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
-  color: #222222;
-  font-family: "Roboto", sans-serif;
+  color: var(--secondary);
 }
 .feature-section .image-content .item p {
   font-size: 15px;
   line-height: 28px;
+  color: var(--tritary);
 }
 .feature-section .contact-info .item {
   position: relative;
@@ -856,7 +853,6 @@ button:focus {
   line-height: 28px;
   font-weight: 600;
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
 }
 
 .feature-section.style-two {
@@ -994,7 +990,7 @@ button:focus {
 .service-section .section-title p {
   font-size: 15px;
   line-height: 26px;
-  color: #777777;
+  color: var(--tritary);
   font-weight: 400;
 }
 .service-section .items-container {
@@ -1003,7 +999,7 @@ button:focus {
 .service-section .items-container .slick-prev:before,
 .service-section .items-container .slick-next:before {
   font-size: 25px;
-  color: #48bdc5;
+  color: var(--primary);
 }
 .service-section .items-container .item {
   margin: 10px 15px;
