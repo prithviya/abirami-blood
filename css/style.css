@@ -236,8 +236,8 @@ li {
 .header-top .top-left h6 {
   font-size: 15px;
   line-height: 26px;
-  color: #777777;
-  font-weight: 400;
+  color: var(--primary);
+  font-weight: 500;
   padding: 14px 0px;
 }
 .header-top .top-left .contact-links li {
@@ -317,14 +317,14 @@ li {
   font-size: 16px;
   line-height: 26px;
   font-weight: 600;
-  color: #222222;
+  color: var(--secondary);
   text-transform: capitalize;
 }
 .header-uper .contact-info .item span {
   font-size: 15px;
   line-height: 26px;
   font-weight: 400;
-  color: #777777;
+  color: var(--tritary);
 }
 .header-uper .right-side .link-btn {
   margin-left: 20px;
@@ -554,7 +554,7 @@ button:focus {
 }
 .hero-slider .slider-item:before {
   position: absolute;
-  background: linear-gradient(284deg, rgba(48,42,157,0.5) 0%, rgba(235,98,112,0.5) 63%, rgba(255,0,9,0.5) 100%);;
+  /* background: rgba(39, 38, 38, 0.574); */
   content: "";
   top: 0;
   height: 100%;
@@ -772,7 +772,7 @@ button:focus {
 }
 .form-control:focus {
   box-shadow: none;
-  border: 1px solid #48bdc5;
+  border: 2px solid var(--primary);
 }
 .form-control.main {
   padding: 20px;
@@ -1027,14 +1027,14 @@ button:focus {
   font-size: 15px;
   line-height: 26px;
   font-weight: 400;
-  color: #777777;
+  color: var(--tritary);
   letter-spacing: 0.5px;
 }
 .service-section .inner-box .image-content h6 {
   font-size: 18px;
   line-height: 28px;
   font-weight: 600;
-  color: #222222;
+  color: var(--primary);
   padding-top: 6px;
   padding-bottom: 8px;
   text-transform: uppercase;
@@ -1043,7 +1043,7 @@ button:focus {
   font-size: 15px;
   line-height: 26px;
   font-weight: 400;
-  color: #777777;
+  color: var(--tritary);
   margin-bottom: 0;
 }
 
@@ -1076,7 +1076,7 @@ button:focus {
 .service-two .left-side .section-title p {
   font-size: 15px;
   line-height: 26px;
-  color: #777777;
+  color: var(--tritary);
   font-weight: 400;
   padding-bottom: 40px;
 }
@@ -1121,7 +1121,7 @@ button:focus {
 }
 .service-two .link-buttons li {
   display: inline-block;
-  color: #777777;
+  color: var(--tritary);
   font-size: 18px;
   font-weight: 400;
 }
@@ -1199,7 +1199,7 @@ button:focus {
   font-size: 15px;
   line-height: 30px;
   font-weight: 400;
-  color: #777777;
+  color: var(--tritary);
   padding-top: 30px;
   letter-spacing: 0.3px;
 }
@@ -1229,7 +1229,7 @@ button:focus {
   font-size: 15px;
   line-height: 30px;
   font-weight: 400;
-  color: #777777;
+  color: var(--tritary);
   margin-bottom: 0px;
 }
 
@@ -1257,7 +1257,7 @@ button:focus {
 }
 .accordion-box .accordion .accord-btn::after {
   position: absolute;
-  color: #777777;
+  color: var(--tritary);
   content: "\f107";
   font-size: 17px;
   font-weight: 400;
@@ -1297,7 +1297,7 @@ button:focus {
   font-size: 15px;
   line-height: 26px;
   font-weight: 400;
-  color: #777777;
+  color: var(--tritary);
   padding: 20px 0px;
 }
 
@@ -1349,7 +1349,7 @@ button:focus {
   font-size: 15px;
   font-weight: 400;
   line-height: 26px;
-  color: #777777;
+  color: var(--tritary);
   padding-top: 15px;
 }
 .service-details .service-testimonials strong {
@@ -1392,13 +1392,13 @@ button:focus {
 }
 .service-details .contact-text .item i:before {
   font-size: 20px;
-  color: #53c0c8;
+  color: var(--primary);
 }
 .service-details .contact-text .item p {
   font-size: 15px;
   line-height: 26px;
   font-weight: 400;
-  color: #777777;
+  color: var(--tritary);
   margin-bottom: 0px;
 }
 
@@ -1454,7 +1454,7 @@ button:focus {
 .team-section .section-title p {
   font-size: 15px;
   line-height: 26px;
-  color: #777777;
+  color: var(--tritary);
   font-weight: 400;
   padding-bottom: 30px;
 }
@@ -1483,7 +1483,7 @@ button:focus {
   content: "";
   width: 30px;
   height: 1px;
-  background: #777777;
+  background: var(--tritary);
   bottom: -8px;
   left: 50%;
   transform: translateX(-50%);
@@ -1632,13 +1632,13 @@ button:focus {
 .blog-section .content-text span {
   font-size: 13px;
   font-weight: 400;
-  color: #777777;
+  color: var(--tritary);
   line-height: 24px;
 }
 .blog-section .content-text p {
   font-size: 15px;
   font-weight: 400;
-  color: #777777;
+  color: var(--tritary);
   line-height: 24px;
   padding: 10px 0px 15px 0px;
   letter-spacing: 0.4px;
@@ -1659,7 +1659,7 @@ button:focus {
   position: relative;
   width: 100%;
   height: 50px;
-  color: #777777;
+  color: var(--tritary);
   padding: 10px 25px;
   background: #f4f4f4;
   display: block;
@@ -1731,7 +1731,7 @@ button:focus {
 .blog-section.style-two .section-title p {
   font-size: 15px;
   line-height: 26px;
-  color: #777777;
+  color: var(--tritary);
   font-weight: 400;
   padding-bottom: 40px;
 }
@@ -1825,7 +1825,7 @@ button:focus {
   padding: 10px 20px;
   font-size: 15px;
   line-height: 26px;
-  color: #777777;
+  color: var(--tritary);
   font-weight: 400;
   background: #ffffff;
   border: 1px solid #ececec;
@@ -1878,7 +1878,7 @@ button:focus {
   font-size: 14px;
   line-height: 26px;
   font-weight: 400;
-  color: #777777;
+  color: var(--tritary);
   padding: 6px 26px;
   margin-right: 5px;
   margin-bottom: 10px;
@@ -2004,7 +2004,7 @@ button:focus {
   font-size: 14px;
   line-height: 26px;
   font-weight: 400;
-  color: #777777;
+  color: var(--tritary);
   margin-left: 10px;
   padding-left: 10px;
   text-transform: capitalize;
@@ -2054,7 +2054,7 @@ button:focus {
   font-size: 15px;
   line-height: 26px;
   font-weight: 400;
-  color: #777777;
+  color: var(--tritary);
 }
 .blog-section.style-five .form-group {
   margin-bottom: 20px;
@@ -2827,7 +2827,7 @@ button:focus {
   z-index: 999;
   height: 40px;
   width: 40px;
-  background: #48bdc5;
+  background: var(--primary);
   border-radius: 50%;
   text-align: center;
   line-height: 40px;
@@ -2843,7 +2843,7 @@ button:focus {
   }
 }
 .back-to-top:hover {
-  background-color: #333;
+  background-color: var(--tritary);
 }
 
 /*  Theme HTML Template */
